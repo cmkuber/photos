@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E16358F1DF86A100093A9EA /* NSUserDefaults+RecentSearches.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E16358E1DF86A0F0093A9EA /* NSUserDefaults+RecentSearches.m */; };
+		0E1635921DF87EE90093A9EA /* NSURLSession+FlickrClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1635911DF87EE90093A9EA /* NSURLSession+FlickrClient.m */; };
+		0E3184DB1DF83A230070ADFE /* FlickrCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3184DA1DF83A230070ADFE /* FlickrCoordinator.m */; };
+		0E3184DE1DF857250070ADFE /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3184DD1DF857250070ADFE /* PhotoCell.m */; };
+		0E5E1E911DF7215E00A4F6A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5E1E901DF7215E00A4F6A2 /* main.m */; };
+		0E5E1E941DF7215E00A4F6A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5E1E931DF7215E00A4F6A2 /* AppDelegate.m */; };
+		0E5E1E971DF7215E00A4F6A2 /* PhotosVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5E1E961DF7215E00A4F6A2 /* PhotosVC.m */; };
+		0E5E1E9A1DF7215E00A4F6A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E5E1E981DF7215E00A4F6A2 /* Main.storyboard */; };
+		0E5E1E9C1DF7215E00A4F6A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E5E1E9B1DF7215E00A4F6A2 /* Assets.xcassets */; };
+		0E5E1E9F1DF7215E00A4F6A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E5E1E9D1DF7215E00A4F6A2 /* LaunchScreen.storyboard */; };
+		0E5E1EAA1DF7215E00A4F6A2 /* UBPhotosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5E1EA91DF7215E00A4F6A2 /* UBPhotosTests.m */; };
+		0E5E1EB61DF724A900A4F6A2 /* FlickrClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5E1EB51DF724A900A4F6A2 /* FlickrClient.m */; };
+		0EB7A4AC1DF8285C00F9BD83 /* FlickrPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB7A4AB1DF8285C00F9BD83 /* FlickrPhoto.m */; };
+		0EB7A4AF1DF82B0900F9BD83 /* FlickrResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB7A4AE1DF82B0900F9BD83 /* FlickrResponse.m */; };
+		0EBD43041DF86768002C15A2 /* RecentSearchesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBD43031DF86768002C15A2 /* RecentSearchesVC.m */; };
+		1223BD1A576A4922C62B4972 /* libPods-UBPhotosTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF8002DD1E0F422D4A7308A7 /* libPods-UBPhotosTests.a */; };
+		89BCFF63A0449A28BD88B5CB /* libPods-UBPhotos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 044D0F364916FA01E873A695 /* libPods-UBPhotos.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E5E1EA61DF7215E00A4F6A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E5E1E841DF7215E00A4F6A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E5E1E8B1DF7215E00A4F6A2;
+			remoteInfo = UBPhotos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0E3184F51DF858560070ADFE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0358FF670CBC0428B1333FC5 /* Pods-UBPhotosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UBPhotosTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UBPhotosTests/Pods-UBPhotosTests.release.xcconfig"; sourceTree = "<group>"; };
+		044D0F364916FA01E873A695 /* libPods-UBPhotos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UBPhotos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08FF1386BF792E1F496AB150 /* Pods-UBPhotos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UBPhotos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UBPhotos/Pods-UBPhotos.debug.xcconfig"; sourceTree = "<group>"; };
+		0E16358D1DF86A0F0093A9EA /* NSUserDefaults+RecentSearches.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+RecentSearches.h"; sourceTree = "<group>"; };
+		0E16358E1DF86A0F0093A9EA /* NSUserDefaults+RecentSearches.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+RecentSearches.m"; sourceTree = "<group>"; };
+		0E1635901DF87EE90093A9EA /* NSURLSession+FlickrClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLSession+FlickrClient.h"; sourceTree = "<group>"; };
+		0E1635911DF87EE90093A9EA /* NSURLSession+FlickrClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLSession+FlickrClient.m"; sourceTree = "<group>"; };
+		0E3184D91DF83A230070ADFE /* FlickrCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrCoordinator.h; sourceTree = "<group>"; };
+		0E3184DA1DF83A230070ADFE /* FlickrCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrCoordinator.m; sourceTree = "<group>"; };
+		0E3184DC1DF857250070ADFE /* PhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
+		0E3184DD1DF857250070ADFE /* PhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
+		0E5E1E8C1DF7215E00A4F6A2 /* UBPhotos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UBPhotos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E5E1E901DF7215E00A4F6A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E5E1E921DF7215E00A4F6A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0E5E1E931DF7215E00A4F6A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0E5E1E951DF7215E00A4F6A2 /* PhotosVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotosVC.h; sourceTree = "<group>"; };
+		0E5E1E961DF7215E00A4F6A2 /* PhotosVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotosVC.m; sourceTree = "<group>"; };
+		0E5E1E991DF7215E00A4F6A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E5E1E9B1DF7215E00A4F6A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E5E1E9E1DF7215E00A4F6A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0E5E1EA01DF7215E00A4F6A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E5E1EA51DF7215E00A4F6A2 /* UBPhotosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UBPhotosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E5E1EA91DF7215E00A4F6A2 /* UBPhotosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UBPhotosTests.m; sourceTree = "<group>"; };
+		0E5E1EAB1DF7215E00A4F6A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E5E1EB41DF724A900A4F6A2 /* FlickrClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrClient.h; sourceTree = "<group>"; };
+		0E5E1EB51DF724A900A4F6A2 /* FlickrClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrClient.m; sourceTree = "<group>"; };
+		0EB7A4AA1DF8285C00F9BD83 /* FlickrPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhoto.h; sourceTree = "<group>"; };
+		0EB7A4AB1DF8285C00F9BD83 /* FlickrPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhoto.m; sourceTree = "<group>"; };
+		0EB7A4AD1DF82B0900F9BD83 /* FlickrResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrResponse.h; sourceTree = "<group>"; };
+		0EB7A4AE1DF82B0900F9BD83 /* FlickrResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrResponse.m; sourceTree = "<group>"; };
+		0EBD43021DF86768002C15A2 /* RecentSearchesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentSearchesVC.h; sourceTree = "<group>"; };
+		0EBD43031DF86768002C15A2 /* RecentSearchesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentSearchesVC.m; sourceTree = "<group>"; };
+		57FDA7A7435E86441B6AD8F1 /* Pods-UBPhotos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UBPhotos.release.xcconfig"; path = "Pods/Target Support Files/Pods-UBPhotos/Pods-UBPhotos.release.xcconfig"; sourceTree = "<group>"; };
+		BF8002DD1E0F422D4A7308A7 /* libPods-UBPhotosTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UBPhotosTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3DEFA0421CB748B4DAA990 /* Pods-UBPhotosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UBPhotosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UBPhotosTests/Pods-UBPhotosTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E5E1E891DF7215E00A4F6A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89BCFF63A0449A28BD88B5CB /* libPods-UBPhotos.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E5E1EA21DF7215E00A4F6A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1223BD1A576A4922C62B4972 /* libPods-UBPhotosTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E5E1E831DF7215E00A4F6A2 = {
+			isa = PBXGroup;
+			children = (
+				0E5E1E8E1DF7215E00A4F6A2 /* UBPhotos */,
+				0E5E1EA81DF7215E00A4F6A2 /* UBPhotosTests */,
+				0E5E1E8D1DF7215E00A4F6A2 /* Products */,
+				47B8B5034F837901C7F70E1C /* Pods */,
+				3DB85455B6F70FA87781EC94 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0E5E1E8D1DF7215E00A4F6A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E5E1E8C1DF7215E00A4F6A2 /* UBPhotos.app */,
+				0E5E1EA51DF7215E00A4F6A2 /* UBPhotosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E5E1E8E1DF7215E00A4F6A2 /* UBPhotos */ = {
+			isa = PBXGroup;
+			children = (
+				0EBD42FC1DF866DD002C15A2 /* App Delegate */,
+				0EBD43011DF866FF002C15A2 /* Photos VC */,
+				0EBD42FD1DF866E5002C15A2 /* Coordinator */,
+				0EBD42FE1DF866ED002C15A2 /* Client */,
+				0E5E1E981DF7215E00A4F6A2 /* Main.storyboard */,
+				0E5E1E9B1DF7215E00A4F6A2 /* Assets.xcassets */,
+				0E5E1E9D1DF7215E00A4F6A2 /* LaunchScreen.storyboard */,
+				0E5E1EA01DF7215E00A4F6A2 /* Info.plist */,
+				0E5E1E8F1DF7215E00A4F6A2 /* Supporting Files */,
+				0E3184DC1DF857250070ADFE /* PhotoCell.h */,
+				0E3184DD1DF857250070ADFE /* PhotoCell.m */,
+				0EBD43021DF86768002C15A2 /* RecentSearchesVC.h */,
+				0EBD43031DF86768002C15A2 /* RecentSearchesVC.m */,
+				0E16358D1DF86A0F0093A9EA /* NSUserDefaults+RecentSearches.h */,
+				0E16358E1DF86A0F0093A9EA /* NSUserDefaults+RecentSearches.m */,
+			);
+			path = UBPhotos;
+			sourceTree = "<group>";
+		};
+		0E5E1E8F1DF7215E00A4F6A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E5E1E901DF7215E00A4F6A2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0E5E1EA81DF7215E00A4F6A2 /* UBPhotosTests */ = {
+			isa = PBXGroup;
+			children = (
+				0E5E1EA91DF7215E00A4F6A2 /* UBPhotosTests.m */,
+				0E5E1EAB1DF7215E00A4F6A2 /* Info.plist */,
+			);
+			path = UBPhotosTests;
+			sourceTree = "<group>";
+		};
+		0EBD42FC1DF866DD002C15A2 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				0E5E1E921DF7215E00A4F6A2 /* AppDelegate.h */,
+				0E5E1E931DF7215E00A4F6A2 /* AppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		0EBD42FD1DF866E5002C15A2 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				0E3184DA1DF83A230070ADFE /* FlickrCoordinator.m */,
+				0E3184D91DF83A230070ADFE /* FlickrCoordinator.h */,
+			);
+			name = Coordinator;
+			sourceTree = "<group>";
+		};
+		0EBD42FE1DF866ED002C15A2 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				0E5E1EB41DF724A900A4F6A2 /* FlickrClient.h */,
+				0E5E1EB51DF724A900A4F6A2 /* FlickrClient.m */,
+				0E1635901DF87EE90093A9EA /* NSURLSession+FlickrClient.h */,
+				0E1635911DF87EE90093A9EA /* NSURLSession+FlickrClient.m */,
+				0EBD42FF1DF866F3002C15A2 /* Response */,
+				0EBD43001DF866F7002C15A2 /* Photo */,
+			);
+			name = Client;
+			sourceTree = "<group>";
+		};
+		0EBD42FF1DF866F3002C15A2 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				0EB7A4AD1DF82B0900F9BD83 /* FlickrResponse.h */,
+				0EB7A4AE1DF82B0900F9BD83 /* FlickrResponse.m */,
+			);
+			name = Response;
+			sourceTree = "<group>";
+		};
+		0EBD43001DF866F7002C15A2 /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				0EB7A4AA1DF8285C00F9BD83 /* FlickrPhoto.h */,
+				0EB7A4AB1DF8285C00F9BD83 /* FlickrPhoto.m */,
+			);
+			name = Photo;
+			sourceTree = "<group>";
+		};
+		0EBD43011DF866FF002C15A2 /* Photos VC */ = {
+			isa = PBXGroup;
+			children = (
+				0E5E1E951DF7215E00A4F6A2 /* PhotosVC.h */,
+				0E5E1E961DF7215E00A4F6A2 /* PhotosVC.m */,
+			);
+			name = "Photos VC";
+			sourceTree = "<group>";
+		};
+		3DB85455B6F70FA87781EC94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				044D0F364916FA01E873A695 /* libPods-UBPhotos.a */,
+				BF8002DD1E0F422D4A7308A7 /* libPods-UBPhotosTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47B8B5034F837901C7F70E1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08FF1386BF792E1F496AB150 /* Pods-UBPhotos.debug.xcconfig */,
+				57FDA7A7435E86441B6AD8F1 /* Pods-UBPhotos.release.xcconfig */,
+				FA3DEFA0421CB748B4DAA990 /* Pods-UBPhotosTests.debug.xcconfig */,
+				0358FF670CBC0428B1333FC5 /* Pods-UBPhotosTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E5E1E8B1DF7215E00A4F6A2 /* UBPhotos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E5E1EAE1DF7215E00A4F6A2 /* Build configuration list for PBXNativeTarget "UBPhotos" */;
+			buildPhases = (
+				4F155DA382D31BF996B83B88 /* [CP] Check Pods Manifest.lock */,
+				0E5E1E881DF7215E00A4F6A2 /* Sources */,
+				0E5E1E891DF7215E00A4F6A2 /* Frameworks */,
+				0E5E1E8A1DF7215E00A4F6A2 /* Resources */,
+				0E3184F51DF858560070ADFE /* CopyFiles */,
+				2CC3E85A806CC5CAACDEF19E /* [CP] Embed Pods Frameworks */,
+				98F802C106958A8468249DE6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UBPhotos;
+			productName = UBPhotos;
+			productReference = 0E5E1E8C1DF7215E00A4F6A2 /* UBPhotos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0E5E1EA41DF7215E00A4F6A2 /* UBPhotosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E5E1EB11DF7215E00A4F6A2 /* Build configuration list for PBXNativeTarget "UBPhotosTests" */;
+			buildPhases = (
+				B6015B0224B059B4C06F68B7 /* [CP] Check Pods Manifest.lock */,
+				0E5E1EA11DF7215E00A4F6A2 /* Sources */,
+				0E5E1EA21DF7215E00A4F6A2 /* Frameworks */,
+				0E5E1EA31DF7215E00A4F6A2 /* Resources */,
+				30F1A570DE3F2F9D9B346BD7 /* [CP] Embed Pods Frameworks */,
+				D0F5016A341D3D7472AE0467 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E5E1EA71DF7215E00A4F6A2 /* PBXTargetDependency */,
+			);
+			name = UBPhotosTests;
+			productName = UBPhotosTests;
+			productReference = 0E5E1EA51DF7215E00A4F6A2 /* UBPhotosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E5E1E841DF7215E00A4F6A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = CMK;
+				TargetAttributes = {
+					0E5E1E8B1DF7215E00A4F6A2 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Manual;
+					};
+					0E5E1EA41DF7215E00A4F6A2 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Manual;
+						TestTargetID = 0E5E1E8B1DF7215E00A4F6A2;
+					};
+				};
+			};
+			buildConfigurationList = 0E5E1E871DF7215E00A4F6A2 /* Build configuration list for PBXProject "UBPhotos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E5E1E831DF7215E00A4F6A2;
+			productRefGroup = 0E5E1E8D1DF7215E00A4F6A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E5E1E8B1DF7215E00A4F6A2 /* UBPhotos */,
+				0E5E1EA41DF7215E00A4F6A2 /* UBPhotosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E5E1E8A1DF7215E00A4F6A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E5E1E9F1DF7215E00A4F6A2 /* LaunchScreen.storyboard in Resources */,
+				0E5E1E9C1DF7215E00A4F6A2 /* Assets.xcassets in Resources */,
+				0E5E1E9A1DF7215E00A4F6A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E5E1EA31DF7215E00A4F6A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CC3E85A806CC5CAACDEF19E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UBPhotos/Pods-UBPhotos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30F1A570DE3F2F9D9B346BD7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UBPhotosTests/Pods-UBPhotosTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F155DA382D31BF996B83B88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		98F802C106958A8468249DE6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UBPhotos/Pods-UBPhotos-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6015B0224B059B4C06F68B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D0F5016A341D3D7472AE0467 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UBPhotosTests/Pods-UBPhotosTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E5E1E881DF7215E00A4F6A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E3184DE1DF857250070ADFE /* PhotoCell.m in Sources */,
+				0E5E1E971DF7215E00A4F6A2 /* PhotosVC.m in Sources */,
+				0E5E1E941DF7215E00A4F6A2 /* AppDelegate.m in Sources */,
+				0E1635921DF87EE90093A9EA /* NSURLSession+FlickrClient.m in Sources */,
+				0E5E1E911DF7215E00A4F6A2 /* main.m in Sources */,
+				0E5E1EB61DF724A900A4F6A2 /* FlickrClient.m in Sources */,
+				0EB7A4AC1DF8285C00F9BD83 /* FlickrPhoto.m in Sources */,
+				0EBD43041DF86768002C15A2 /* RecentSearchesVC.m in Sources */,
+				0E16358F1DF86A100093A9EA /* NSUserDefaults+RecentSearches.m in Sources */,
+				0E3184DB1DF83A230070ADFE /* FlickrCoordinator.m in Sources */,
+				0EB7A4AF1DF82B0900F9BD83 /* FlickrResponse.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E5E1EA11DF7215E00A4F6A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E5E1EAA1DF7215E00A4F6A2 /* UBPhotosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E5E1EA71DF7215E00A4F6A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E5E1E8B1DF7215E00A4F6A2 /* UBPhotos */;
+			targetProxy = 0E5E1EA61DF7215E00A4F6A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0E5E1E981DF7215E00A4F6A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E5E1E991DF7215E00A4F6A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0E5E1E9D1DF7215E00A4F6A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E5E1E9E1DF7215E00A4F6A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E5E1EAC1DF7215E00A4F6A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E5E1EAD1DF7215E00A4F6A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E5E1EAF1DF7215E00A4F6A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08FF1386BF792E1F496AB150 /* Pods-UBPhotos.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = UBPhotos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.christian-kienle.UBPhotos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		0E5E1EB01DF7215E00A4F6A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57FDA7A7435E86441B6AD8F1 /* Pods-UBPhotos.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = UBPhotos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.christian-kienle.UBPhotos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		0E5E1EB21DF7215E00A4F6A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA3DEFA0421CB748B4DAA990 /* Pods-UBPhotosTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = UBPhotosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.christian-kienle.UBPhotosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UBPhotos.app/UBPhotos";
+			};
+			name = Debug;
+		};
+		0E5E1EB31DF7215E00A4F6A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0358FF670CBC0428B1333FC5 /* Pods-UBPhotosTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = UBPhotosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.christian-kienle.UBPhotosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UBPhotos.app/UBPhotos";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E5E1E871DF7215E00A4F6A2 /* Build configuration list for PBXProject "UBPhotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E5E1EAC1DF7215E00A4F6A2 /* Debug */,
+				0E5E1EAD1DF7215E00A4F6A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E5E1EAE1DF7215E00A4F6A2 /* Build configuration list for PBXNativeTarget "UBPhotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E5E1EAF1DF7215E00A4F6A2 /* Debug */,
+				0E5E1EB01DF7215E00A4F6A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E5E1EB11DF7215E00A4F6A2 /* Build configuration list for PBXNativeTarget "UBPhotosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E5E1EB21DF7215E00A4F6A2 /* Debug */,
+				0E5E1EB31DF7215E00A4F6A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E5E1E841DF7215E00A4F6A2 /* Project object */;
+}

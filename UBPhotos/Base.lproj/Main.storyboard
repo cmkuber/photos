@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="zAs-Q5-Hl5">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="uYb-7n-OYV">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zAs-Q5-Hl5" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="plE-O0-adx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Nlm-3U-v4X" kind="relationship" relationship="rootViewController" id="kKo-Z8-Mdk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1LQ-8r-jTb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="148" y="-560.86956521739137"/>
+        </scene>
+        <!--PhotosVC-->
+        <scene sceneID="ap6-gj-hNI">
+            <objects>
+                <collectionViewController id="Nlm-3U-v4X" customClass="PhotosVC" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" id="FjO-cD-KOm">
+                        <rect key="frame" x="0.0" y="64" width="384" height="384"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="pC5-Mf-bjp">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="com.uber.photos.cell" id="dmC-Of-LCY" customClass="PhotoCell">
+                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Q5B-Cb-gP7">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        </imageView>
+                                    </subviews>
+                                </view>
+                                <constraints>
+                                    <constraint firstItem="Q5B-Cb-gP7" firstAttribute="leading" secondItem="dmC-Of-LCY" secondAttribute="leading" id="AXL-fJ-Err"/>
+                                    <constraint firstAttribute="bottom" secondItem="Q5B-Cb-gP7" secondAttribute="bottom" id="QW9-7K-Wvb"/>
+                                    <constraint firstItem="Q5B-Cb-gP7" firstAttribute="top" secondItem="dmC-Of-LCY" secondAttribute="top" id="fyU-ed-JFv"/>
+                                    <constraint firstAttribute="trailing" secondItem="Q5B-Cb-gP7" secondAttribute="trailing" id="o8w-KD-7GW"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="imageView" destination="Q5B-Cb-gP7" id="Rlh-Sk-GFg"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="Nlm-3U-v4X" id="ls8-rw-GNz"/>
+                            <outlet property="delegate" destination="Nlm-3U-v4X" id="0fr-e8-uii"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" id="Ell-dP-5IP">
+                        <nil key="title"/>
+                    </navigationItem>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="384" height="448"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ig8-9D-ql5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1344.8" y="-399.85007496251876"/>
+        </scene>
+    </scenes>
+</document>
