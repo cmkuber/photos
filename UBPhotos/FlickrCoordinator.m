@@ -25,7 +25,7 @@
 - (instancetype)init {
     self = [super init];
     if(self) {
-        self.client = [[FlickrClient alloc] initWithAPIKey:@"27b33dcbde3c89078933128db5449045"];
+        self.client = [[FlickrClient alloc] initWithAPIKey:@"3e7cc266ae2b0e0d78e279ce8e361736"];
         self.responseByPage = [NSMutableDictionary new];
     }
     return self;
